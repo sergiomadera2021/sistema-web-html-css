@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Usuarios - Ferretería Maxi</title>
+  <link rel="stylesheet" href="css/EstiloFerreteria.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Usuarios</h1>
+    <a href="MenuPrincipal.html" class="volver">← Volver</a>
+  </header>
+  <main>
+    <form class="formulario">
+      <input type="text" placeholder="Nombre de usuario">
+      <input type="password" placeholder="Contraseña">
+      <select>
+        <option>Seleccionar rol</option>
+        <option>Dueño</option>
+        <option>Encargado de compras</option>
+        <option>Vendedor</option>
+      </select>
+      <button>Crear usuario</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr><th>Nombre</th><th>Rol</th><th>Acciones</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Laura Gómez</td><td>Encargada de compras</td><td><button>Editar</button> <button>Eliminar</button></td></tr>
+        <tr><td>Juan Torres</td><td>Vendedor</td><td><button>Editar</button> <button>Eliminar</button></td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
